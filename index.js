@@ -1,5 +1,5 @@
 // Code your solution in this file!
-const returnFirstTwoDrivers = function(drivers) {
+const returnFirstTwoDrivers = function a(drivers) {
     return drivers.slice(0,2);
 }
 
