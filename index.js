@@ -13,7 +13,8 @@ function createFareMultiplier(int){
   return function(fare){
     return (fare * int)
   }
-}const fareDoubler = createFareMultiplier(2);
+
+const fareDoubler = createFareMultiplier(2);
 
 const fareTripler = createFareMultiplier(3);
 
