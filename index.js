@@ -2,12 +2,8 @@ const returnFirstTwoDrivers = function(drivers){
   return drivers.slice(0,2)
 }
 
-const returnLastTwoDrivers = (drivers) => {
-  var lastTwo = []
-  for(let i = drivers.length - 2; i < drivers.length; i++){
-    lastTwo.push(drivers[i])
-  }
-  return lastTwo
+const returnLastTwoDrivers = function(drivers){
+  return drivers.slice(-2)
 }
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
