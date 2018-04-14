@@ -3,7 +3,7 @@ const returnFirstTwoDrivers = function(drivers){
   for(let i = 0; i < 2; i++){
     firstTwo.push(drivers[i])
   }
-  return firstTwo
+  return drivers.slice(0,2)
 }
 
 const returnLastTwoDrivers = (drivers) => {
