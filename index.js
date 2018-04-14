@@ -1,5 +1,5 @@
 // Code your solution in this file!
-const returnFirstTwoDrivers = function(drivers) {
+const returnFirstTwoDrivers = (drivers) => {
   var firstTwo = []
   for(let i = 0; i < 2; i++){
     firstTwo.push(drivers[i])
