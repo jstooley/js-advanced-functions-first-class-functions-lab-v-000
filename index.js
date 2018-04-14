@@ -1,8 +1,4 @@
 const returnFirstTwoDrivers = function(drivers){
-  var firstTwo = []
-  for(let i = 0; i < 2; i++){
-    firstTwo.push(drivers[i])
-  }
   return drivers.slice(0,2)
 }
 
